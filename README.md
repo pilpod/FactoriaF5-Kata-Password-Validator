@@ -1,4 +1,4 @@
-# KataFizzBuzz
+# Password Validator
 
 ## Requiered
 
@@ -13,12 +13,11 @@
 
 - vendor/bin/phpunit
 
-### Escribe un programa que imprima los números del 1 al 100:
+### Escribe un programa que verifique una contraseña:
 
-Aplica las siguientes normas:
-
-- Devuelve Fizz si el número es divisible por 3.
-- Devuelve Buzz si el número es divisible por 5.
-- Devuelve FizzBuzz si el número es divisible por 3 y por 5.
-- Devuelve el mismo número si no se cumple nada de lo anterior.
+- A password should have more than 8 chars
+- A password should contain at least 1 char in upper case
+- A password should contain at least 1 char in lower case
+- A password should contain at least 1 number
+- A password should contain at least 1 special char ("_-$%")
 
