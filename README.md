@@ -21,3 +21,5 @@
 - A password should contain at least 1 number
 - A password should contain at least 1 special char ("_-$%")
 
+### Original
+https://github.com/jsrois/password-validator-kata-cpp
